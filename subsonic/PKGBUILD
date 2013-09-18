@@ -1,7 +1,7 @@
 # Maintainer: M0Rf30 <morf3089@gmail.com>
 # Contributors : Nrm
 pkgname=subsonic
-pkgver=4.7
+pkgver=4.8
 pkgrel=1
 pkgdesc="Subsonic is a free, web-based media streamer and jukebox."
 arch=('i686' 'x86_64' 'arch')
@@ -34,5 +34,6 @@ build() {
   sed -i "22 i $lang_b" $pkgdir/var/$pkgname/$pkgname.sh
 }
  
-md5sums=('42a4986f450cca01d73ba9b72e38ae85'
-         'a9a21db853d3779d78a9508261d97bbd')
+md5sums=(
+         '7d10293902a3bd24c3d537c01468f7bf'
+        '6581365d4f1824d01ae54bda9456a60f')
